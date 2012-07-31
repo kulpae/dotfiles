@@ -1,6 +1,6 @@
 My own dot files.
 
-Currently there are dorfiles for:
+Currently there are dotfiles for:
 
 * vim
 

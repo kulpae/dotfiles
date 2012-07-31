@@ -16,4 +16,11 @@ if has("gui_running")
 
   set guifont=Monaco\ for\ Powerline\ 13
 else
+  set t_Co=256            " Not nice, but found no way to let tilda support 256 colors
 endif
+
+" ================ Color Scheme======================
+
+set background=dark
+"color vibrantink        " For times, when high contrast is mandatory
+color xoria256          " For more calmy days...

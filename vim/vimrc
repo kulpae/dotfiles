@@ -96,10 +96,3 @@ set scrolloff=8         " Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
-" ================ Color Scheme======================
-
-set background=dark
-set t_Co=256            " Not nice, but found no way to let tilda support 256 colors
-"color vibrantink        " For times, when high contrast is mandatory
-color xoria256          " For more calmy days...
-
