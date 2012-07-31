@@ -1,0 +1,30 @@
+[submodule "vim/bundle/tpope-vim-pathogen"]
+	path = vim/bundle/tpope-vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
+[submodule "vim/bundle/scripts-xoria256"]
+	path = vim/bundle/scripts-xoria256
+	url = git://github.com/vim-scripts/xoria256.vim.git
+[submodule "vim/bundle/scripts-vibrantink"]
+	path = vim/bundle/scripts-vibrantink
+	url = git://github.com/vim-scripts/vibrantink.git
+[submodule "vim/bundle/scripts-matchit-zip"]
+	path = vim/bundle/scripts-matchit-zip
+	url = git://github.com/vim-scripts/matchit.zip.git
+[submodule "vim/bundle/majutsushi-tagbar"]
+	path = vim/bundle/majutsushi-tagbar
+	url = git://github.com/majutsushi/tagbar.git
+[submodule "vim/bundle/VimEz-ShowMarks"]
+	path = vim/bundle/VimEz-ShowMarks
+	url = git://github.com/VimEz/ShowMarks.git
+[submodule "vim/bundle/skwp-powerline"]
+	path = vim/bundle/skwp-powerline
+	url = git://github.com/skwp/vim-powerline.git
+[submodule "vim/bundle/chrisbra-color-highlight"]
+	path = vim/bundle/chrisbra-color-highlight
+	url = git://github.com/chrisbra/color_highlight.git
+[submodule "vim/bundle/scrooloose-nerdtree"]
+	path = vim/bundle/scrooloose-nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/jistr-nerdtree-tabs"]
+	path = vim/bundle/jistr-nerdtree-tabs
+	url = git://github.com/jistr/vim-nerdtree-tabs.git
