@@ -15,6 +15,7 @@ if has("gui_running")
   set title
 
   set guifont=Monaco\ for\ Powerline\ 13
+  set guioptions=aegirLt
 else
   set t_Co=256            " Not nice, but found no way to let tilda support 256 colors
 endif

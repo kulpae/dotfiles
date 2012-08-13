@@ -31,3 +31,21 @@
 [submodule "vim/bundle/kchmck-coffee-script"]
 	path = vim/bundle/kchmck-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "vim/bundle/tpope-repeat"]
+	path = vim/bundle/tpope-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/tpope-commentary"]
+	path = vim/bundle/tpope-commentary
+	url = git://github.com/tpope/vim-commentary.git
+[submodule "vim/bundle/tpope-surround"]
+	path = vim/bundle/tpope-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/tpope-abolish"]
+	path = vim/bundle/tpope-abolish
+	url = git://github.com/tpope/vim-abolish.git
+[submodule "vim/bundle/tpope-unimpaired"]
+	path = vim/bundle/tpope-unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "vim/bundle/ruby-ruby"]
+	path = vim/bundle/ruby-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
