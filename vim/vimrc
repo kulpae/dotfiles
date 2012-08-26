@@ -34,6 +34,7 @@ syntax on
 set incsearch        "Find the next match as we type the search
 set hlsearch         "Hilight searches by default
 set viminfo='100,f1  "Save up to 100 marks, enable capital marks
+set smartcase        "case-insensitive search if all small caps, otherwise case-sensitive
 
 " ================ Turn Off Swap Files ==============
 
@@ -49,11 +50,21 @@ silent !mkdir ~/.vim/backups > /dev/null 2>&1
 set undodir=~/.vim/backups
 set undofile
 
+"================= Swap Directory ==============
+silent !mkdir ~/.vim/temp > /dev/null 2>&1
+set directory=~/.vim/temp
+
+"================= Session sharing ==================
+" shares cursor position and more between vim sessions
+set viewdir=~/.vim/vimview
+au BufWinLeave * mkview
+au VimEnter * loadview
+
 " ================ Indentation ======================
 
 set autoindent		" Copy indent from current line when starting a new line
 set smartindent		" Do smart autoindenting when starting a new line (e.g. after {)
-set smarttab		" a <Tab> inserts blanks according to 'shiftwidth' in front of a line 
+set smarttab		" a <Tab> inserts blanks according to 'shiftwidth' in front of a line
 set shiftwidth=2	" Number of spaces to use for each step of (auto)indent.
 set softtabstop=2	" Number of spaces that a <Tab> counts for while using editing operations
 set tabstop=2		" Number of spaces that a <Tab> in the file counts for

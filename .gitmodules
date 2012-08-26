@@ -49,3 +49,9 @@
 [submodule "vim/bundle/ruby-ruby"]
 	path = vim/bundle/ruby-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/bundle/2072-phpindent"]
+	path = vim/bundle/2072-phpindent
+	url = git://github.com/2072/PHP-Indenting-for-VIm.git
+[submodule "vim/bundle/tudorprodan-html-annoyance"]
+	path = vim/bundle/tudorprodan-html-annoyance
+	url = git://github.com/tudorprodan/html_annoyance.vim.git
