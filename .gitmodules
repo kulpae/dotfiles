@@ -55,3 +55,6 @@
 [submodule "vim/bundle/tudorprodan-html-annoyance"]
 	path = vim/bundle/tudorprodan-html-annoyance
 	url = git://github.com/tudorprodan/html_annoyance.vim.git
+[submodule "vim/bundle/Valloric-MatchTagAlways"]
+	path = vim/bundle/Valloric-MatchTagAlways
+	url = git://github.com/Valloric/MatchTagAlways.git
