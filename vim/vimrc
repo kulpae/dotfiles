@@ -12,6 +12,7 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " ================ General Config ====================
+let mapleader = ","
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
@@ -59,8 +60,8 @@ set directory=~/.vim/temp
 "================= Session sharing ==================
 " shares cursor position and more between vim sessions
 set viewdir=~/.vim/vimview
-au BufWinLeave * mkview
-au VimEnter * loadview
+au BufWinLeave ?* mkview
+au VimEnter ?* loadview
 
 " ================ Indentation ======================
 

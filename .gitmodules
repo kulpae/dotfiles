@@ -58,3 +58,12 @@
 [submodule "vim/bundle/Valloric-MatchTagAlways"]
 	path = vim/bundle/Valloric-MatchTagAlways
 	url = git://github.com/Valloric/MatchTagAlways.git
+[submodule "vim/bundle/skwp-conque"]
+	path = vim/bundle/skwp-conque
+	url = git://github.com/skwp/vim-conque.git
+[submodule "vim/bundle/mbbill-code-complete"]
+	path = vim/bundle/mbbill-code-complete
+	url = git://github.com/mbbill/code_complete.git
+[submodule "vim/bundle/scripts-drawit"]
+	path = vim/bundle/scripts-drawit
+	url = git://github.com/vim-scripts/DrawIt.git
