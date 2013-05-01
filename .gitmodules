@@ -64,6 +64,12 @@
 [submodule "vim/bundle/mbbill-code-complete"]
 	path = vim/bundle/mbbill-code-complete
 	url = git://github.com/mbbill/code_complete.git
-[submodule "vim/bundle/scripts-drawit"]
-	path = vim/bundle/scripts-drawit
-	url = git://github.com/vim-scripts/DrawIt.git
+[submodule "vim/bundle/sirver-ultisnips"]
+	path = vim/bundle/sirver-ultisnips
+	url = git://github.com/SirVer/ultisnips.git
+[submodule "vim/bundle/ludovicPelle-xdebug"]
+	path = vim/bundle/ludovicPelle-xdebug
+	url = git://github.com/ludovicPelle/vim-xdebug.git
+[submodule "vim/bundle/mattn-zencoding"]
+	path = vim/bundle/mattn-zencoding
+	url = git://github.com/mattn/zencoding-vim.git
